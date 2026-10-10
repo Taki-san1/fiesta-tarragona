@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f7;
+  color: #222;
+  line-height: 1.4;
+}
+
+header {
+  background: #2c4a6e;
+  color: #fff;
+  text-align: center;
+  padding: 22px 15px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 26px;
+}
+
+header p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+main {
+  max-width: 620px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.tarjeta {
+  background: #fff;
+  border: 1px solid #d9dde3;
+  border-radius: 6px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+}
+
+.tarjeta h2 {
+  margin: 0 0 14px;
+  font-size: 19px;
+  color: #2c4a6e;
+}
+
+label {
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  font-size: 15px;
+  border: 1px solid #b8bec7;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: 2px solid #8fb0d6;
+  border-color: #2c4a6e;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  font-size: 15px;
+  background: #2c4a6e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #213a57;
+}
+
+button.secundario {
+  background: #fff;
+  color: #a33;
+  border: 1px solid #a33;
+  font-size: 13px;
+  padding: 7px 12px;
+}
+
+button.secundario:hover {
+  background: #fbeaea;
+}
+
+.error {
+  color: #b00020;
+  font-size: 14px;
+  min-height: 18px;
+  margin: 10px 0 0;
+}
+
+.nota {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.detalle td {
+  padding: 7px 4px;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.detalle td:last-child {
+  text-align: right;
+}
+
+.detalle .total td {
+  font-weight: bold;
+  font-size: 17px;
+  border-bottom: none;
+  border-top: 2px solid #2c4a6e;
+}
+
+.lista th {
+  background: #e9edf2;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.lista td {
+  padding: 8px;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+.resumen {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.resumen div {
+  flex: 1;
+  background: #f2f4f7;
+  border-radius: 4px;
+  padding: 10px 6px;
+  text-align: center;
+}
+
+.resumen span {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c4a6e;
+}
+
+.resumen small {
+  font-size: 12px;
+  color: #555;
+}
+
+.tarifas {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.tarifas table {
+  flex: 1;
+  min-width: 220px;
+}
+
+.scroll {
+  overflow-x: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  padding: 10px 0 25px;
+}
